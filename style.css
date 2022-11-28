@@ -12,6 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.container {
+    padding: 80px 0;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -109,9 +113,17 @@ INTRO
     font-size: 36px;
 }
 
+.header__description {
+    width: 60%;
+}
+
 .header__row {
     display: flex;
     
+}
+
+.header__img {
+    width: 40%;
 }
 
 .intro__img {
@@ -133,10 +145,5 @@ Features
 
 }
 
-.features__list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    
-}
+
 
