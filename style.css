@@ -119,5 +119,24 @@ INTRO
 }
 
 
+/* 
 
+Features
+
+*/
+
+#features {
+
+}
+
+.features__description {
+
+}
+
+.features__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
 
