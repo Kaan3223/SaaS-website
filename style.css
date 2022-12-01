@@ -26,15 +26,8 @@ li {
     list-style: none;
 }
 
-.img__wrapper {
-    box-sizing: border-box;
-    border-width: 1px;
-    border-radius: 9999px;
-
-}
-
 .purple {
-    color: rgb(100 21 255);;
+    color: rgb(100 21 255);
 }
 
 /* 
@@ -177,6 +170,14 @@ Features
     color: rgb(124 139 161);
 }
 
+.features__img {
+    border: 1px solid;
+    border-radius: 9999px;
+    border-color: rgb(226, 232, 240);
+    padding: 20px;
+
+}
+
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -186,12 +187,39 @@ Features
 .service {
     display: flex;
     width: calc(100%/3);
+    padding: 32px 24px;
+    
 }
 
 .service__description {
     display: flex;
     flex-direction: column;
+    margin-left: 16px;
+    margin-top: 8px;
 }
+
+.service__header {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+}
+
+.service__para {
+    font-weight: 300;
+    line-height: 2;
+    color: rgb(124 139 161);
+    margin-top: 16px;
+}
+
+/* 
+
+QUALITY 
+
+*/
+
+
+
 
 
 
