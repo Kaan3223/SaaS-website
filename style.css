@@ -53,10 +53,6 @@ nav {
     justify-content: space-between;
 }
 
-.nav__link {
-    /* margin: 24px; */
-}
-
 .nav__row {
     padding: 14px 4px;
 }
@@ -218,8 +214,45 @@ QUALITY
 
 */
 
+.row__quality {
+    display: flex;
+    margin: 0 24px;
+}
+.quality__wording {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 64px;
+    padding: 0 32px;
+}
 
+.quality__img {
+    width: 50%;
+}
 
+.lp__snip {
+    width: 100%;
+    display: flex;
+}
 
+.quality__title {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.15rem;
+}
 
+.quality__hook {
+    width: 100%;
+    letter-spacing: 0.05rem;
+    font-size: 52px;
+    font-weight: 900;
+}
 
+.learn__more--anchor {
+    background-color: rgb(100 21 255);
+    padding: 11px 32px;
+    border-radius: 50px;
+    color: white;
+    transition: all 300ms ease;
+}
