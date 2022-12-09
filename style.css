@@ -249,10 +249,49 @@ QUALITY
     font-weight: 900;
 }
 
+.quality__para {
+    margin-top: 16px;
+    font-weight: 300;
+    line-height: 2;
+    color: rgb(124 139 161);
+}
+
 .learn__more--anchor {
     background-color: rgb(100 21 255);
-    padding: 11px 32px;
+    padding: 11px 16px;
     border-radius: 50px;
     color: white;
     transition: all 300ms ease;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-right: 370px;
+}
+
+
+/* 
+
+NEXT STEPS
+
+*/
+
+.next__steps--row {
+    display: flex;
+}
+
+.next__steps--row {
+    display: flex;
+}
+
+.next__steps--wording {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.next__steps--img {
+    width: 50%;
 }
