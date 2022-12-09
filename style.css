@@ -316,9 +316,31 @@ next__steps--wording {
 .step__para {
     margin-top: 12px;
     max-width: 320px;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 2;
     color: rgb(113 128 150);
 }
 
+/* 
+
+VALUES
+
+*/
+
+.values {
+    display: flex;
+}
+
+.value__header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.value__para {
+    margin-top: 16px;
+    font-size:  16px;
+    font-weight:300;
+    color: rgb(124 139 161);
+    line-height: 1.5;
+}
