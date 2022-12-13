@@ -193,7 +193,7 @@ INTRO
 }
 
 .clientele {
-    margin-top: 32px;
+    margin: 32px 0 120px 0;
 }
 
 .clientele__header {
@@ -208,7 +208,9 @@ INTRO
 }
 
 .header__img {
-    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
 }
 
 .intro__img {
