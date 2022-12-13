@@ -30,6 +30,30 @@ li {
     color: rgb(100 21 255);
 }
 
+.cta {
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 16px 64px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+
+.blue__button {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+    color: white;
+}
+
+.white__button {
+    background-color: white;
+    color: ;
+}
+
+.red__button {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    color: white;
+}
+
 /* 
 
 NAVBAR
@@ -343,4 +367,93 @@ VALUES
     font-weight:300;
     color: rgb(124 139 161);
     line-height: 1.5;
+}
+
+
+/* 
+
+PLANS
+
+*/
+
+.pricing__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__hook {
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%/3);
+    padding: 8px 32px 0 32px;
+}
+
+.top__border {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan__head {
+    padding: 32px 0;
+}
+
+.plan__type {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+
+.plan__price {
+    margin: 4px 0;
+    padding: 8px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.plan__duration {
+    font-size: 18px;
+    color: rgb(124 139 161);
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+}
+
+.plan__details {
+    padding: 32px;
+    border: solid;
+    border-width: 2px 0;
+    border-color: rgb(226, 232, 240);
+}
+
+.plan__target {
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+}
+
+.plan__features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+.plan__feature {
+    margin-top: 20px;
+    color: rgb(124 139 161);
+    letter-spacing: 0.025rem;
+}
+
+.plan__purchase {
+    padding: 36px 16px;
 }
