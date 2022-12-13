@@ -55,6 +55,7 @@ li {
 
 .white__button {
     background-color: white;
+    color: rgb(76, 81, 191);
 }
 
 .red__button {
@@ -133,7 +134,7 @@ INTRO
 
 
 #intro {
-    padding-top: 96px;
+    padding-top: 80px;
     margin: 0 24px;
 }
 
@@ -142,12 +143,42 @@ INTRO
 }
 
 .header__description {
-    width: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 64px;
+    padding-right: 32px;
+}
+
+.intro__description--para {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: rgb(124 139 161);
 }
 
 .header__row {
     display: flex;
+}
+
+.submit__email {
+    border: solid rgb(226, 232, 240);
+    border-radius: 50px;
+    padding: 20px 0 20px 0;
+}
+
+.email__input {
     
+}
+
+.submit__button{
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 12px 64px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
 }
 
 .header__img {
@@ -409,12 +440,21 @@ PLANS
     padding: 8px 32px 0 32px;
 }
 
+.plan__blue {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    border-radius: 12px;
+}
+
 .top__border {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
 .plan__head {
     padding: 32px 0;
+}
+
+.blue__plan {
+    color: white;
 }
 
 .plan__type {
@@ -435,6 +475,14 @@ PLANS
     color: rgb(124 139 161);
     letter-spacing: 0.05rem;
     font-weight: 500;
+}
+
+.business__duration {
+    font-size: 18px;
+    color: rgb(124 139 161);
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+    color: white;
 }
 
 .plan__details {
@@ -459,6 +507,13 @@ PLANS
 .plan__feature {
     margin-top: 20px;
     color: rgb(124 139 161);
+    letter-spacing: 0.025rem;
+}
+
+.business__feature {
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 0.025rem;
     letter-spacing: 0.025rem;
 }
 
@@ -541,4 +596,77 @@ FOOTER
 
 */
 
+#footer {
+    background-color: rgb(100 21 255);
+}
 
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+    margin-top: 48px;
+}
+
+.link__section {
+    color: white;
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer__link {
+    color: white;
+    padding: 8px 0;
+    font-size: 12px;
+}
+
+.footer__border {
+    border: 1px solid rgb(116 44 255);
+    width: 100%;
+    margin: 64px 0;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 48px;
+    padding-left: 16px;
+}
+
+.footer__logo {
+    width: 40px;
+    margin-right: 11px;
+}
+
+.footer__logo--name {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.footer__title {
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.social__link {
+    padding: 0 16px;
+}
