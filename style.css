@@ -162,23 +162,49 @@ INTRO
     display: flex;
 }
 
-.submit__email {
-    border: solid rgb(226, 232, 240);
-    border-radius: 50px;
-    padding: 20px 0 20px 0;
-}
-
 .email__input {
-    
+    width: 100%;
+    padding: 20px 19px 20px 34px;
+    border: 2px solid rgba(128, 128, 128, 0.404);
+    border-radius: 50px;
+    transition: all 300ms ease;
+    position: relative;
+    font-size: 16px;
 }
 
 .submit__button{
+    background-color: #6415FF;
+    padding: 14px 24px;
+    color: white;
+    border-radius: 25px;
     text-decoration: none;
-    border-radius: 50px;
-    padding: 12px 64px;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: 0.05rem;
+    transition: all 300ms ease;
+    border: none;
+    position: absolute;
+    transform: translateX(-126px) translateY(4px);
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.emailbutton:hover{
+    background-color: #2a0a6a;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.clientele {
+    margin-top: 32px;
+}
+
+.clientele__header {
+    font-size: 12px;
+    font-weight: 700px;
+    color: rgb(160 174 192);
+}
+
+.customers {
+    width: 100%;
+    margin-top: 16px;
 }
 
 .header__img {
