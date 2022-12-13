@@ -39,6 +39,15 @@ li {
     letter-spacing: 0.05rem;
 }
 
+.centered__hook {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    font-size: 52px;
+    font-weight: 900;
+    letter-spacing: 1;
+}
+
 .blue__button {
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
     color: white;
@@ -46,7 +55,6 @@ li {
 
 .white__button {
     background-color: white;
-    color: ;
 }
 
 .red__button {
@@ -457,3 +465,80 @@ PLANS
 .plan__purchase {
     padding: 36px 16px;
 }
+
+
+/* 
+
+TESTIMONIALS
+
+*/
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.testimonial__wording {
+    margin-right: 64px;
+    padding: 0 32px;
+}
+
+.review {
+    padding: 0 32px;
+}
+
+.stars {
+    color: #fabf2a;
+    margin-bottom: 20px;
+}
+
+.test__para {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    max-width: 576px;
+    line-height: 1.625;
+    font-size: 18px;
+    color: rgb(124 139 161);
+}
+
+.review__title {
+    font-size: 20px;
+}
+
+.review__para {
+    padding: 16px 0;
+    font-weight: 500;
+    line-height: 1.625;
+    color: rgb(74 85 104);
+}
+
+.profile__name {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+
+.profile__occupation {
+    color: rgb(124 139 161);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* 
+
+FAQS
+
+*/
+
+
+
+
+/* 
+
+FOOTER
+
+*/
+
+
